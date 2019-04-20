@@ -18,5 +18,16 @@ The original MNIST dataset contains a lot of handwritten digits. Members of the 
 
 Fashion-MNIST is intended to serve as a drop-in replacement for the original MNIST dataset, helping people to benchmark and understand machine learning algorithms. It encourages researchers to design unequivocal experiments to understand algorithms better.
 
+![comp](https://user-images.githubusercontent.com/41579652/56460291-2e1b7c00-63be-11e9-9556-357c8fea8ac6.JPG)
+
+## Dataset Description
+
+- Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total.
+- Each pixel has a single pixel value associated with it, indicating the lightness or darkness of that pixel(higher numbers meaning darker).
+- The pixel value is an integer between 0 and 255.
+- The training and testing datasets have 785 columns.
+- The first column in the dataset consist of class labels which represents the article of clothing.
+
+
 
 
