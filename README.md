@@ -55,11 +55,19 @@ The dataset is in the form of a csv file:
 
 https://drive.google.com/file/d/1eeJu_0kXJnCFcn_sikhvQ7h2iKbZwpt9/view?usp=sharing/
 
+![info](https://user-images.githubusercontent.com/41579652/56461130-4cd43f80-63cb-11e9-8a82-b30df9a4e27a.JPG)
+
 ## Libraries Used
 - pandas
 - matplotlib.pyplot
 - seaborn
 - sklearn
+
+## Viewing data according to class label
+
+
+
+
 
 
 
