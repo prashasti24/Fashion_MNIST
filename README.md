@@ -20,6 +20,18 @@ Fashion-MNIST is intended to serve as a drop-in replacement for the original MNI
 
 ![comp](https://user-images.githubusercontent.com/41579652/56460291-2e1b7c00-63be-11e9-9556-357c8fea8ac6.JPG)
 
+## Prerequisites
+
+We would highly recommend that before the hack night you have some kind of toolchain and development environment already installed and ready. If you have no idea where to start with this, try a combination like:
+- Python
+- scikit-learn / sklearn
+- Pandas
+- NumPy
+- matplotlib
+- An environment to work in (something like Jupyter or Spyder)
+
+For Linux people, your package manager should be able to handle all of this. If it somehow can't, see if you can at least install Python and pip and then use pip to install the above packages.
+
 ## Dataset Description
 
 - Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total.
@@ -27,6 +39,34 @@ Fashion-MNIST is intended to serve as a drop-in replacement for the original MNI
 - The pixel value is an integer between 0 and 255.
 - The training and testing datasets have 785 columns.
 - The first column in the dataset consist of class labels which represents the article of clothing.
+  ![label_desc](https://user-images.githubusercontent.com/41579652/56460399-b0587000-63bf-11e9-99a3-1c93f700ccd3.JPG)
+- The rest of the columns contain the pixel values of the associated image.
+  - To locate a pixel on the image, suppose that we have decomposed x as x = i * 28 + j, where i and j are integers between 0 and 27. The pixel is located on row i and column j of a 28 x 28 matrix.
+  - For example, pixel31 indicates the pixel that is in the fourth column from the left, and the second row from the top.
+  
+## Objectives
+- View the data as an image
+- Train different classifiers
+- Compare performance for different classifiers using various metrics
+
+## Dataset
+
+The dataset is in the form of a csv file:
+
+https://drive.google.com/file/d/1eeJu_0kXJnCFcn_sikhvQ7h2iKbZwpt9/view?usp=sharing/
+
+## Libraries Used
+- pandas
+- matplotlib.pyplot
+- seaborn
+- sklearn
+
+
+
+
+
+  
+
 
 
 
