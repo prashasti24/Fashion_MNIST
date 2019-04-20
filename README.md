@@ -65,6 +65,20 @@ https://drive.google.com/file/d/1eeJu_0kXJnCFcn_sikhvQ7h2iKbZwpt9/view?usp=shari
 
 ## Viewing data according to class label
 
+![clothing](https://user-images.githubusercontent.com/41579652/56461301-f4527180-63cd-11e9-9ded-21b69227eddc.JPG)
+
+## Training Models Used:
+
+- Logistic Regression
+- KNN (K Nearest Neighbors)
+- Random Forest
+- SVM (Support Vector Machine)
+
+## Performance Metrics Used :
+
+- Accuracy Score
+- Confusion Matrix
+- Classification report
 
 
 
