@@ -22,7 +22,7 @@ Fashion-MNIST is intended to serve as a drop-in replacement for the original MNI
 
 ![comp](https://user-images.githubusercontent.com/41579652/56460291-2e1b7c00-63be-11e9-9556-357c8fea8ac6.JPG)
 
-## Prerequisites
+### Prerequisites
 
 We would highly recommend that before the hack night you have some kind of toolchain and development environment already installed and ready. If you have no idea where to start with this, try a combination like:
 - Python
@@ -34,7 +34,7 @@ We would highly recommend that before the hack night you have some kind of toolc
 
 For Linux people, your package manager should be able to handle all of this. If it somehow can't, see if you can at least install Python and pip and then use pip to install the above packages.
 
-## Dataset Description
+### Dataset Description
 
 - Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total.
 - Each pixel has a single pixel value associated with it, indicating the lightness or darkness of that pixel(higher numbers meaning darker).
@@ -47,12 +47,12 @@ For Linux people, your package manager should be able to handle all of this. If 
   
 ![label_desc](https://user-images.githubusercontent.com/41579652/56460399-b0587000-63bf-11e9-99a3-1c93f700ccd3.JPG)
   
-## Objectives
+### Objectives
 - View the data as an image
 - Train different classifiers
 - Compare performance for different classifiers using various metrics
 
-## Dataset
+### Dataset
 
 The dataset is in the form of a csv file:
 
@@ -60,24 +60,24 @@ https://drive.google.com/file/d/1eeJu_0kXJnCFcn_sikhvQ7h2iKbZwpt9/view?usp=shari
 
 ![info](https://user-images.githubusercontent.com/41579652/56461130-4cd43f80-63cb-11e9-8a82-b30df9a4e27a.JPG)
 
-## Libraries Used
+### Libraries Used
 - pandas
 - matplotlib.pyplot
 - seaborn
 - sklearn
 
-## Viewing data according to class label
+### Viewing data according to class label
 
 ![clothing](https://user-images.githubusercontent.com/41579652/56461301-f4527180-63cd-11e9-9ded-21b69227eddc.JPG)
 
-## Training Models Used:
+### Training Models Used:
 
 - Logistic Regression
 - KNN (K Nearest Neighbors)
 - Random Forest
 - SVM (Support Vector Machine)
 
-## Performance Metrics Used :
+### Performance Metrics Used :
 
 - Accuracy Score
 - Confusion Matrix
