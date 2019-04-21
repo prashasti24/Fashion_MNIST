@@ -10,6 +10,8 @@ The Fashion MNIST dataset was created by e-commerce company, Zalando.It is a dat
 3. The dataset is overused.
 4. MNIST cannot represent modern computer vision tasks.
 
+![digit](https://user-images.githubusercontent.com/41579652/56472461-4e117500-647c-11e9-864c-a53933b4bbac.JPG)
+
 *Zalando, therefore, created the Fashion MNIST dataset as a drop-in replacement for MNIST. The Fashion MNIST dataset is identical to the MNIST dataset in terms of training set size, testing set size, number of class labels, and image dimensions.*
 
 ## Why we made Fashion MNIST
