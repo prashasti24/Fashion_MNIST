@@ -39,10 +39,11 @@ For Linux people, your package manager should be able to handle all of this. If 
 - The pixel value is an integer between 0 and 255.
 - The training and testing datasets have 785 columns.
 - The first column in the dataset consist of class labels which represents the article of clothing.
-![label_desc](https://user-images.githubusercontent.com/41579652/56460399-b0587000-63bf-11e9-99a3-1c93f700ccd3.JPG)
 - The rest of the columns contain the pixel values of the associated image.
   - To locate a pixel on the image, suppose that we have decomposed x as x = i * 28 + j, where i and j are integers between 0 and 27. The pixel is located on row i and column j of a 28 x 28 matrix.
   - For example, pixel31 indicates the pixel that is in the fourth column from the left, and the second row from the top.
+  
+![label_desc](https://user-images.githubusercontent.com/41579652/56460399-b0587000-63bf-11e9-99a3-1c93f700ccd3.JPG)
   
 ## Objectives
 - View the data as an image
